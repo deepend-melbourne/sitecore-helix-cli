@@ -1,5 +1,4 @@
-module.exports = (name, layer) => `
-using Sitecore.Data;
+module.exports = (name, layer) => `using Sitecore.Data;
 
 namespace Sitecore.${layer}.${name}
 {

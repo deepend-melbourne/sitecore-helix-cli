@@ -49,7 +49,7 @@ const action = moduleName => {
               'add',
               `--name ${moduleName}`,
               parseUrl(url),
-              destPath]
+              `src/${layer}/${name || moduleName}`]
 
             const cmd = args.join(' ')
 

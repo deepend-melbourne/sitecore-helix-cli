@@ -1,5 +1,4 @@
-module.exports = (name, layer) => `
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+module.exports = (name, layer) => `<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
   <sitecore>
     <unicorn>
       <configurations>

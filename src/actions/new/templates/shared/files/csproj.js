@@ -3,8 +3,7 @@ const uuid = require('uuid').v4
 module.exports = (name, layer) => {
   const guid = uuid()
 
-  return `
-<?xml version="1.0" encoding="utf-8"?>
+  return `<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')" />
   <PropertyGroup>
