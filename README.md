@@ -61,7 +61,7 @@ To submit your updates, run the following commands.
     git push update master # this pushes your changes to the fork
     # submit a pull request to the source repository's maintainer
 
-After a review and once the module's maintainer has accepted your pull request it will be merged, others can then receive the updates by following the [above section](#Receiving-updates-to-modules).
+After a review and once the module's maintainer has accepted your pull request it will be merged, others can then receive the updates by following the [above section](#receiving-updates-to-modules).
 
 ## About
 
