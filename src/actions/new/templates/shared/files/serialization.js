@@ -1,5 +1,5 @@
-module.exports = (name, layer) => `<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
+module.exports = (name, layer) => `<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+  <sitecore role:require="Standalone or ContentManagement">
     <unicorn>
       <configurations>
         <configuration name="${layer}.${name}" description="${layer} ${name}" extends="Helix.${layer}">
